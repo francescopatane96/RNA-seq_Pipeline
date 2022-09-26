@@ -1,1 +1,3 @@
 # RNA-seq_Pipeline
+
+Deposited R scripts allow to execute a complete RNA-seq Pipeline, starting from sequence reads (FASTQ files) to mapping/annotate the genome using a reference, to counts the number of reads for every gene.  when raw counts are obtained, DESeq2 module permits to find differentially expressed genes (DEG) and to perform statistical analysis. The last module of the project allows you to use clusterprofiler in order to perform ORA and GSEA analysis (over-representation analysis and gene set enrichment analysis) using GeneOntology (GO), disease ontology (DO), KEGG, reactome eg...
